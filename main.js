@@ -18,7 +18,7 @@ for (const link of links) {
 }
 
 //Carousel slider swiper
-const swiper = new Swiper('.swiper-container', {
+const swiper = new Swiper('.swiper', {
   slidesPerView: 1,
   pagination: {
     el: '.swiper-pagination'
