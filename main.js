@@ -19,14 +19,22 @@ for (const link of links) {
 
 //Carousel slider swiper
 const swiper = new Swiper('.swiper', {
-  slidesPerView: 1,
-  pagination: {
-    el: '.swiper-pagination'
-  },
-  mousewheel: true,
-  keyboard: true,
-  setWrapperSize: true
-})
+    slidesPerView: 2.3,
+    spaceBetween: 35,
+    direction: 'horizontal',
+    loop: true,
+    pagination: {
+      el: '.swiper-pagination',
+    },
+
+    mousewheel: true,
+    keyboard: true,
+    setWrapperSize: true,
+
+    autoplay: {
+        delay: 5000,
+      },
+  });
 
 //ScrollReveal
 const scrollReveal = ScrollReveal({
