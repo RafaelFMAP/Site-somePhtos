@@ -19,7 +19,7 @@ for (const link of links) {
 
 //Carousel slider swiper
 const swiper = new Swiper('.swiper', {
-    slidesPerView: 2.3,
+    slidesPerView: 1,
     spaceBetween: 35,
     direction: 'horizontal',
     loop: true,
